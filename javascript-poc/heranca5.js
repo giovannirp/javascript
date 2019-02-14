@@ -13,7 +13,7 @@ Array.prototype.first = function(){
 }
 
 String.prototype.toString = function() {
-    return 'Lascou Tudo'
+    return 'testou Tudo'
 }
 
 console.log('Escola Cod3r'.reverse)
