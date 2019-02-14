@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 720px;
+    border:1px solid red;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.header {
+    background: orange;
+    width: 100%;
+    height: 80px;
+}
+
+.content {
+    display:flex;
+    justify-content: space-between;
+}
+
+.main {
+    border:1px solid red;
+    display: flex;
+}
+.boxConent {
+    border:1px solid red;
+    width: 80px;
+    display: flex;   
+}
+

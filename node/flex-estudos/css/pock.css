@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.destaque {
+    background: purple;
+    display: flex;
+    height: 425px;
+    max-width: 1000px;
+}
+
+.divConteudo {
+    background: #b30909;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ .imagem {
+     display: flex;
+    justify-content: center;
+    background: pink;
+}
+
+.footerBootom {
+    display: flex;
+    justify-content: center;
+}
+
+.divConteudo button {
+    height: 40px;
+    width: 90px;
+}
+
+.pedacosBoxs {
+    border: 1px solid red;
+}
+
+

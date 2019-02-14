@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    border:1px solid red;
+    max-width: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.header {
+    background: tomato;
+    width: 100%;
+    height: 50px;
+}
+
+.content {
+    display: flex;
+
+}
+
+.main {
+    width: 50%;
+    background: forestgreen;
+    height: 180px;
+}
+
+.asside1 {
+    background: fuchsia;
+    width: 25%;
+    height: 180px;
+    order: -1;
+}
+
+.asside2 {
+    background:aquamarine;
+    width: 25%;
+    height: 180px;
+}
+
+.footer {
+    background:sienna;
+    width: 100%;
+    height: 50px;
+}
+
+
+
