@@ -53,3 +53,8 @@ body {
     color: greenyellow;
     font-weight: bold;
 }
+
+.adicionaCor {
+    background:orange;
+    color:red;
+}
