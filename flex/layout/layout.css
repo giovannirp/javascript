@@ -1,0 +1,228 @@
+h1 {
+  margin: 0;
+}
+
+.container {
+  max-width: 430px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+@media (min-width: 431px) {
+  .container {
+    max-width: 776px;
+  }
+}
+
+.container nav {
+  list-style: none;
+  margin: 0;
+  background: #72009f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 431px) {
+  .container nav li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.container nav li a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 431px) {
+  .container nav li a {
+    display: inline-block;
+  }
+}
+
+.container nav li a:hover {
+  background: #fcfcfc;
+  color: #333333;
+}
+
+.container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container header .logo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #72009f;
+  display: block;
+  padding: 20px;
+  width: 48%;
+}
+
+.container header .categoria {
+  width: 48%;
+}
+
+.container header .categoria p {
+  color: #8e8b8b;
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.container .carrocel .banner img {
+  width: 100%;
+}
+
+.container .destaque .titleDesq {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 20px 0 20px 20px;
+  color: #660099;
+}
+
+.container .structureBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (min-width: 560px) {
+  .container .structureBox {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
+.container .structureBox .box {
+  width: calc(46% - 15px);
+  height: 270px;
+  background: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin: 0 20px 20px 0;
+}
+
+@media (min-width: 431px) {
+  .container .structureBox .box {
+    max-width: 776px;
+  }
+}
+
+@media (max-width: 390px) {
+  .container .structureBox .box {
+    width: calc(45% - 15px);
+  }
+}
+
+@media (max-width: 315px) {
+  .container .structureBox .box {
+    width: 80%;
+  }
+}
+
+.container .structureBox .box:first-child {
+  margin-left: 20px;
+}
+
+.container .structureBox .box:nth-child(3n) {
+  margin-left: 20px;
+}
+
+@media (max-width: 315px) {
+  .container .structureBox .box:nth-child(3n) {
+    margin-left: none;
+  }
+}
+
+@media (min-width: 560px) {
+  .container .structureBox .box:nth-child(3n) {
+    margin-left: 0px;
+  }
+}
+
+.container .structureBox .box p {
+  color: #333333;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 15px 0 15px;
+}
+
+.container footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 431px) {
+  .container footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.container footer div {
+  border-right: 1px solid #dedede;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  width: 30%;
+}
+
+.container footer div:last-child {
+  border: 0;
+}
+
+.container footer div:first-child {
+  padding-left: 0px;
+}
+
+.container footer h2 {
+  margin: 0px;
+  font-size: 16px;
+  color: #660099;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 0 10px 0;
+}
+
+.container footer strong {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.container footer span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 10px 0;
+}
+/*# sourceMappingURL=layout.css.map */

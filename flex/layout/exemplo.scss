@@ -1,0 +1,26 @@
+.main {
+    display: flex;
+    width: 500px;
+    background: #EFEFEF;
+    height: 500px;
+    flex-flow: column;
+    border:1px solid red;
+
+    div {
+        background: #ccc;
+        margin-right: 10px;
+        flex: 1 1 auto;
+
+        .primeiroDiv {
+            order: 2;
+        }
+
+        .segundoDiv {
+            order: 3;
+        }
+
+        .terceiroDiv {
+            order:1;
+        }
+    }
+}

@@ -1,0 +1,144 @@
+body {
+  background: #f1f1f1;
+}
+
+.container {
+  max-width: 776px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container header .section {
+  width: 50%;
+}
+
+.container header .section h1 small img {
+  margin-right: 10px;
+}
+
+.container header .section h1 strong a {
+  font-size: 16px;
+  color: #660099;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.container header .section h1 strong a:hover {
+  text-decoration: underline;
+}
+
+.container header .section .categoria p {
+  color: #8e8b8b;
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.container .destaque {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+}
+
+.container .destaque .banner {
+  width: 65%;
+}
+
+.container .destaque .banner img {
+  max-width: 550px;
+  width: 100%;
+}
+
+.container .destaque .destaqueLateral {
+  width: 35%;
+}
+
+.container .destaque .destaqueLateral h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px 0px 20px 20px;
+}
+
+.container .destaque .destaqueLateral .patrocinio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .destaque .destaqueLateral .patrocinio small img {
+  width: 60%;
+}
+
+.container .destaque .destaqueLateral .containerResgatar {
+  height: 60%;
+}
+
+.container .destaque .destaqueLateral .containerResgatar .btnResgatar a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.container .destaque .destaqueLateral .containerResgatar .btnResgatar a strong {
+  height: 60px;
+  border-radius: 5px;
+  background: #99cc33;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  width: 85%;
+  font-family: 'Roboto';
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .detalhes {
+  background: #fff;
+  margin-top: 20px;
+}
+
+.container .detalhes div {
+  border-bottom: 1px solid #dddddd;
+}
+
+.container .detalhes div:last-child {
+  border: 0;
+}
+
+.container .detalhes div strong {
+  color: #660099;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  padding: 20px;
+  display: inline-block;
+}
+/*# sourceMappingURL=dtalhes.css.map */
