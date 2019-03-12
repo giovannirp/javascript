@@ -1,0 +1,166 @@
+.container {
+  max-width: 776px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container .site header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .site header .logo {
+  width: 48%;
+}
+
+.container .site header .categoria {
+  width: 48%;
+}
+
+.container .site header .categoria p {
+  color: #8e8b8b;
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.container .site footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .site footer div {
+  border-right: 1px solid #dedede;
+  padding-left: 20px;
+  width: 30%;
+}
+
+.container .site footer div:last-child {
+  border: 0;
+}
+
+.container .site footer div:first-child {
+  padding-left: 0px;
+}
+
+.container .site footer div h2 {
+  margin: 0px;
+  font-size: 16px;
+  color: #660099;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 0 10px 0;
+}
+
+.container .site footer div span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 10px 0;
+}
+
+.container .site footer div strong {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.container .banner img {
+  width: 100%;
+}
+
+.container .banner span {
+  color: red;
+}
+
+.container .logo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #72009f;
+  display: block;
+  padding: 20px;
+}
+
+.container .patrocinio {
+  margin-bottom: 20px;
+}
+
+.container .patrocinio article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .patrocinio article div {
+  width: 25%;
+  height: 50px;
+  margin: 0 10px 0 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid #0000001a;
+}
+
+.container .patrocinio article div p {
+  width: 100%;
+  color: darkmagenta;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.container .estructureBoxs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .boxe {
+  width: calc(33% - 15px);
+  height: 270px;
+  background: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.container .boxe p {
+  color: #333333;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 15px 0 15px;
+}
+
+.container .titleDesq {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 20px 0 20px 0px;
+  color: #660099;
+}
+/*# sourceMappingURL=estrutra.css.map */
