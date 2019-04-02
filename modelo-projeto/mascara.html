@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mascara</title>
+</head>
+
+<body>
+
+    <div>
+        <input type="text" onblur="mascaraDeTelefone(this)" placeholder="9999-9999 ou 9999-99999" />
+    </div>
+
+    <script>
+        function mascaraDeTelefone(telefone) {
+            const textoAtual = telefone.value;
+            const isCelular = textoAtual.length === 9;
+            let textoAjustado;
+            if (isCelular) {
+                const parte1 = textoAtual.slice(0, 5);
+                const parte2 = textoAtual.slice(5, 9);
+                textoAjustado = `${parte1} ${parte2}`
+            } else {
+                const parte1 = textoAtual.slice(0, 4);
+                const parte2 = textoAtual.slice(4, 8);
+                textoAjustado = `${parte1} ${parte2}`
+            }
+            telefone.value = textoAjustado;
+
+        }
+
+        function tiraHifen(telefone) {
+            const textoAtual = telefone.value;
+            const textoAjustado = textoAtual.replace(/\-/g, '');
+
+            telefone.value = textoAjustado;
+
+        }
+    </script>
+
+</body>
+
+</html>
