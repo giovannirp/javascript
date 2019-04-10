@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Curso Javascript Completo 2018</title>
+    <meta charset="utf-8">
+
+    <script>
+        function somar(n1, n2) {
+            return n1 + n2;
+        }
+        var teste = function (f) {
+            f();
+        }
+        teste(function () {
+            console.log('funcao passada')
+        })
+        console.log('----------------------------');
+        var x = 0;
+        var y;
+
+        function mostraX() {
+            var x = 10; // scopo local
+            y = 20;
+            console.log("mostra x: " + x);
+            console.log("mostra y dentro" + y)
+        }
+        mostraX();
+        console.log("Mostra x fora " + x)
+        console.log("mostra y fora " + y);
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
