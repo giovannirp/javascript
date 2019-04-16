@@ -1,3 +1,105 @@
+.container .wr-main .pg-distribuicao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container .wr-main .pg-distribuicao .containerDistribuicao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border: 1px solid red;
+}
+
+.container .wr-main .pg-distribuicao .containerDistribuicao .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-left: 1px solid #f6f6f6;
+  border-bottom: 1px solid #f6f6f6;
+  width: calc(34% - 9px);
+  height: 200px;
+}
+
+.container .wr-main .pg-distribuicao .containerDistribuicao .box .boxInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.container .wr-main .pg-distribuicao .containerDistribuicao .box .boxInfo h1 {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .wr-main .pg-distribuicao .containerDistribuicao .box .boxInfo .boxPonts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .wr-main .pg-distribuicao .containerDistribuicao .box .boxInfo .btnComprar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .wr-main .pg-distribuicao .containerDistribuicao .box .boxInfo .btnComprar button {
+  border-radius: 5px;
+  width: 80%;
+  background-color: #8dc64d;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  margin: 8px 0;
+  padding: 8px 15px;
+  min-height: calc(54px - 4px);
+  text-transform: uppercase;
+  border: 0;
+}
+
+.container .wr-main .pg-distribuicao .containerDistribuicao .box:hover {
+  -webkit-box-shadow: 0px 0px 40px 15px rgba(214, 214, 214, 0.7);
+          box-shadow: 0px 0px 40px 15px rgba(214, 214, 214, 0.7);
+  z-index: 2;
+}
+
+.container .wr-main .pg-distribuicao .footer {
+  height: 100px;
+  border: 1px solid red;
+}
+
+.container .wr-main .pg-distribuicao .footer .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 25px 25px 0 25px;
+}
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10,6 +112,7 @@
       -ms-flex-flow: column;
           flex-flow: column;
   border: 1px solid red;
+  color: Red;
 }
 
 .main div {
