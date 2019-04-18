@@ -17,7 +17,6 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  border: 1px solid red;
 }
 
 .container .wr-main .pg-distribuicao .containerDistribuicao .box {
@@ -87,7 +86,6 @@
 
 .container .wr-main .pg-distribuicao .footer {
   height: 100px;
-  border: 1px solid red;
 }
 
 .container .wr-main .pg-distribuicao .footer .logos {
