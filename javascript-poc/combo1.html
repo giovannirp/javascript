@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>javascript</title>
+</head>
+
+<body>
+
+    <select id="cboCidades">
+        <option value=""></option>
+        <option value="scs">São Caetano do Sul</option>
+        <option value="sa">Santo André</option>
+        <option value="sbc">São Bernardo do Campo</option>
+    </select>
+
+    <input type="button" value="Carregar combo" id="carregarCombo" />
+
+    <input type="button" value="valor selecionado" id="valorSelecionado" />
+
+    <input type="button" value="remover cidade" id="removerLista" />
+
+    <script>
+        var comboCidades = document.getElementById("cboCidades");
+        var carregarCombo = document.getElementById("carregarCombo");
+        var btnInfo = document.getElementById("valorSelecionado");
+        let btnRemove = document.getElementById("removerLista");
+
+        btnInfo.onclick = function () {
+            console.log("o indice é " + comboCidades.selectedIndex);
+            console.log("o texto é " + comboCidades.options[comboCidades.selectedIndex].text);
+            console.log("a chave é " + comboCidades.options[comboCidades.selectedIndex].value);
+        }
+
+        btnRemove.onclick = function () {
+            for (var i = 0; i < comboCidades.length; i++) {
+                comboCidades.remove(0);
+            }
+        }
+
+        carregarCombo.onclick = function () {
+            var elem = document.createElement('tag');
+
+            var opt0 = document.createElement("option");
+            opt0.value = 0;
+            opt0.text = "";
+            comboCidades.add(opt0, comboCidades.options[0]);
+
+            var opt1 = document.createElement("option");
+            opt1.value = "01";
+            opt1.text = "Jundiai";
+            comboCidades.add(opt1, comboCidades.options[1]);
+
+            var opt2 = document.createElement("option");
+            opt2.value = "02";
+            opt2.text = "varzea pualista";
+            comboCidades.add(opt2, comboCidades.options[2]);
+
+            var opt3 = document.createElement("option");
+            opt3.value = "03";
+            opt3.text = "Cotia";
+            comboCidades.add(opt3, comboCidades.options[3]);
+        }
+        /*
+                for (var i = 0; i < comboCidades.length; i++) {
+                    console.log(comboCidades.options[i])
+                }
+        */
+    </script>
+
+</body>
+
+</html>
