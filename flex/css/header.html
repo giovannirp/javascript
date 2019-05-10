@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="nav.css" />
+    <title>Header - Nav</title>
+</head>
+
+<body>
+    <nav id="navBar">
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="hamburguer()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+
+    <div style="padding:15px 15px 2500px;font-size:30px">
+        <p><b>This example demonstrates how to slide down a navbar when the user starts to scroll the page.</b></p>
+        <p>Scroll down this frame to see the effect!</p>
+        <p>Scroll to the top to hide the navbar.</p>
+        <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <script>
+
+
+        window.onscroll = function(){scrollFuncion()}
+        var navBar = document.querySelector("#navbar");
+
+        function hamburguer() {
+            var hamburguer = document.querySelector("#myTopnav");
+            var icon = document.querySelector(".fa-bars");
+
+            if (hamburguer.className === "topnav") {
+                hamburguer.className += " responsive";
+                icon.className += " fa-window-close";
+            } else {
+                hamburguer.className = "topnav";
+                icon.className = "fa fa-bars";
+            }
+        }
+
+        function scrollFuncion(){
+            //(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20)
+            //window.onscroll = function() {scrollFunction()};
+
+
+            if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ){
+                //document.querySelector(".navbar").style.top = "0";
+                document.getElementById("navBar").style.top = "0";               
+            } else {
+                document.getElementById("navBar").style.top = "-50px"; 
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

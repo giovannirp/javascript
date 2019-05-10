@@ -1,0 +1,94 @@
+.vitrine {
+  overflow: hidden;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.vitrine ul .selo-desconto {
+  text-align: center;
+  background-color: #000000;
+  padding: 10px 0;
+  height: 60px;
+  display: table;
+  width: 100%;
+}
+
+.vitrine ul .selo-desconto p {
+  color: #fff;
+  font-family: "CorporateACon";
+  font-size: 25px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.vitrine ul li {
+  width: calc(31% - 13px);
+  float: left;
+  margin-right: 15px;
+  margin-left: 14px;
+  margin-top: 45px;
+  border: 1px solid #e2eae8;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.vitrine ul li .descricao {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  padding: 15px 30px;
+  text-align: center;
+  height: 160px;
+}
+
+.vitrine ul li .descricao h4 {
+  color: #6c6b6b;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.vitrine ul li .descricao p {
+  font-size: 13px;
+  color: #6c6b6b;
+}
+
+.vitrine ul li .logo-parceiro {
+  height: 120px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.vitrine ul li .logo-parceiro img {
+  max-width: calc(100% - 40px);
+  max-height: calc(100% - 40px);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.vitrine ul li a {
+  text-decoration: none;
+}
+
+.vitrine ul li a .btn-resgatar {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #fff;
+  display: block;
+  margin: 25px auto;
+  background-color: #00adef;
+  font-weight: bold;
+  border: 0px;
+}
+
+.vitrine ul li .logo-parceiro {
+  padding: 20px 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=estilos.css.map */
