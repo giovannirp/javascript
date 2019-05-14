@@ -44,7 +44,7 @@
   text-align: center;
   background-color: #ca3737;
   padding: 10px 0;
-  height: 30px;
+  height: 20px;
   display: table;
   width: 100%;
 }
@@ -60,7 +60,7 @@
 }
 
 .wr-site .pg-home .content .vitrine ul .selo-desconto p strong {
-  font-size: 18px;
+  font-size: 17px;
   font-family: arial;
 }
 
@@ -130,5 +130,41 @@
 .wr-site .pg-home .content .vitrine ul li .logo-parceiro {
   padding: 20px 20px;
   text-align: center;
+}
+
+.wr-site .pg-home .content .sidebar .rootBanner {
+  border: 1px solid #e2eae8;
+  width: 100%;
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.wr-site .pg-home .content footer .containerFooter {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+}
+
+.wr-site .pg-home .content footer .containerFooter .menuFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  padding: 20px;
+}
+
+.wr-site .pg-home .content footer .containerFooter .menuFooter ul li a {
+  text-decoration: none;
+  padding-right: 20px;
+  color: #288fcb;
+}
+
+.wr-site .pg-home .content footer .containerFooter .corpinfo strong {
+  color: #ca3737;
+  padding: 20px;
+  line-height: 40px;
 }
 /*# sourceMappingURL=layout.css.map */
