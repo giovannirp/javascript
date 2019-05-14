@@ -89,8 +89,10 @@
 }
 
 .wr-site .pg-home .content .vitrine ul li .descricao p {
-  font-size: 13px;
+  font-size: 14px;
   color: #6c6b6b;
+  margin-top: 10px;
+  line-height: 21px;
 }
 
 .wr-site .pg-home .content .vitrine ul li .logo-parceiro {
