@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Curso Javascript Completo 2018</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Curso Javascript Completo 2018 ff</h1>
+        
+    <input type="text" id="textNome" />
+        <button onclick="escreve()">Enviar</button>
+        <div id="msg"></div>
+        
+        <script>
+            var txtNome = document.querySelector('#textNome');
+
+            function escreve(){
+                var nome = txtNome.value;
+                document.querySelector('#msg').innerHTML = "Bem vindo, <b>" + nome + "</b>";
+            }
+                
+        </script>
+        
+    </body>
+</html>
